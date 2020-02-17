@@ -35,6 +35,8 @@
 - docker-compose exec db bash
 - mysql -u user -p
   - password
+### users Table作成
+- ./init-mysql.sh
 
 ### database list
 - SHOW DATABASES;
