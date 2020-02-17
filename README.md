@@ -14,5 +14,5 @@
 
 
 ## 参考URL
-- https://qiita.com/kenkono/items/6221ad12670d1ae8b1dd#comments
+- https://qiita.com/kenkono/items/6221ad12670d1ae8b1dd
 - https://qiita.com/trrrrrys/items/a905f1382733dfb9c8c1
