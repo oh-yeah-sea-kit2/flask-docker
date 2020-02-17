@@ -40,4 +40,17 @@
 - show tables;
 
 
+## API 動作確認
+### ユーザ一覧
+- curl --location --request GET 'http://localhost:4231/api/users'
+
+### ユーザ登録
+curl --location --request POST 'http://localhost:4231/api/users' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "name": "山田太郎",
+  "address":"茨城県つくば市千現",
+  "tel":"02812345678",
+  "mail":"blogtest@swallow-incubate.com"
+}'
 
