@@ -5,14 +5,39 @@
 
 ## 起動コマンドとか
 - docker-compose build
-- docker-compose run python django-admin.py startproject app .
-- docker-compose run python ./manage.py makemigrations
-- docker-compose run python ./manage.py migrate
+- docker-compose up -d
 
-### User作成
-- docker-compose run python ./manage.py createsuperuser
+## 停止
+- docker-compose down
+
+## Status
+- docker-compose ps
+
+
+## log確認
+- docker logs {コンテナ名}
+- docker logs flask-docker_python_1
+
+## コンテナログイン
+- docker-compose exec db bash
 
 
 ## 参考URL
 - https://qiita.com/kenkono/items/6221ad12670d1ae8b1dd
 - https://qiita.com/trrrrrys/items/a905f1382733dfb9c8c1
+
+
+
+## DB
+### login
+- docker-compose exec db bash
+- mysql -u user -p
+  - password
+
+### database list
+- SHOW DATABASES;
+- use test;
+- show tables;
+
+
+

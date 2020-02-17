@@ -7,7 +7,7 @@ WORKDIR /var/www
 COPY requirements.txt ./
 COPY uwsgi.ini ./
 # 依存Pythonライブラリインストール
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 # FIrebaseAuth用ライブラリのインストール
 #RUN pip install git+https://github.com/jp-96/Flask-FirebaseAuth.git
 WORKDIR /var/www/src

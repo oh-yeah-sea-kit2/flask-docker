@@ -7,3 +7,5 @@ run:
 stop:
 	docker-compose down
 
+status:
+	docker-compose ps
